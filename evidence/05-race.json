@@ -1,0 +1,602 @@
+{
+  "source": "baseline/index.html",
+  "sourceSha256": "45de4f0b3b77768b5c7c095b1e4f0f1de2095935c5f0711e60831b834181fdbb",
+  "playwrightVersion": "1.63.0",
+  "browser": {
+    "name": "Chromium",
+    "version": "153.0.8010.12",
+    "headless": true
+  },
+  "method": {
+    "input": "Five trusted Playwright mouse clicks, with 45 ms waits between clicks; actual span asserted below 300 ms.",
+    "startup": "Automatic page-load result and fade-in finish before the probe is armed.",
+    "clock": "performance.now(), milliseconds since probe arm, rounded to 0.001 ms.",
+    "instrumentation": "Native Math.random values are observed, not changed. Native 500 ms callbacks retain their original delay, arguments, and scheduling order.",
+    "dom": "MutationObserver records every delivered mutation batch after synchronous app updates.",
+    "frames": "requestAnimationFrame samples dish, icon, and visibility every frame; frameStates stores changes. These are pre-render samples, not a compositor paint-event count.",
+    "repaints": "Visible dish/icon content transitions; continuous spinner/fade animation paints are excluded. Repeated identical results may not add a content transition.",
+    "sameMenuEntry": "true/false for a result; null for the intentional Thinking.../spinner loading state."
+  },
+  "menu": [
+    {
+      "name": "Pizza",
+      "icon": "fas fa-pizza-slice"
+    },
+    {
+      "name": "Sushi",
+      "icon": "fas fa-fish"
+    },
+    {
+      "name": "Burger",
+      "icon": "fas fa-hamburger"
+    },
+    {
+      "name": "Salad",
+      "icon": "fas fa-leaf"
+    },
+    {
+      "name": "Tacos",
+      "icon": "fas fa-utensil-spoon"
+    },
+    {
+      "name": "Ramen",
+      "icon": "fas fa-bowl-hot"
+    },
+    {
+      "name": "Sandwich",
+      "icon": "fas fa-bread-slice"
+    },
+    {
+      "name": "Pasta",
+      "icon": "fas fa-pasta"
+    },
+    {
+      "name": "Curry",
+      "icon": "fas fa-mortar-pestle"
+    },
+    {
+      "name": "Steak",
+      "icon": "fas fa-drumstick-bite"
+    },
+    {
+      "name": "Soup",
+      "icon": "fas fa-bowl"
+    },
+    {
+      "name": "BBQ",
+      "icon": "fas fa-fire"
+    }
+  ],
+  "fontState": {
+    "stylesheetLoaded": true,
+    "solidFontLoaded": true
+  },
+  "summary": {
+    "clickCount": 5,
+    "clickSpanMs": 204.1,
+    "timerCompletions": 5,
+    "visibleContentTransitions": 6,
+    "visibleLoadingTransitions": 1,
+    "visibleResultTransitions": 5,
+    "staleTimerCompletions": 4,
+    "staleVisibleResultTransitions": 4,
+    "mismatchedMenuPairs": 0,
+    "resultsWithoutAnOriginatingClick": 0,
+    "finalResultRequestId": 5,
+    "interpretation": "Earlier requested results can appear after newer clicks have superseded them. Every result still belongs to an actual click; its icon and name update together. With equal 500 ms delays, the latest click supplies the final result."
+  },
+  "visibleTransitions": [
+    {
+      "frame": 3,
+      "atMs": 18.2,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 1,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "frame": 34,
+      "atMs": 535.5,
+      "dish": "Curry",
+      "iconClass": "fas fa-mortar-pestle",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 1,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.0189522,
+      "visible": true
+    },
+    {
+      "frame": 36,
+      "atMs": 568.2,
+      "dish": "Salad",
+      "iconClass": "fas fa-leaf",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 2,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.0946916,
+      "visible": true
+    },
+    {
+      "frame": 39,
+      "atMs": 617.6,
+      "dish": "Ramen",
+      "iconClass": "fas fa-bowl-hot",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 3,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.295546,
+      "visible": true
+    },
+    {
+      "frame": 42,
+      "atMs": 667.5,
+      "dish": "Sushi",
+      "iconClass": "fas fa-fish",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 4,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.513181,
+      "visible": true
+    },
+    {
+      "frame": 45,
+      "atMs": 717.5,
+      "dish": "Pizza",
+      "iconClass": "fas fa-pizza-slice",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 5,
+      "latestRequestId": 5,
+      "stale": false,
+      "opacity": 0.682729,
+      "visible": true
+    }
+  ],
+  "clicks": [
+    {
+      "requestId": 1,
+      "atMs": 3.6,
+      "trusted": true,
+      "randomDraws": [
+        0.6821712395851067
+      ],
+      "selectedIndex": 8,
+      "selectedEntry": {
+        "name": "Curry",
+        "icon": "fas fa-mortar-pestle"
+      },
+      "timerScheduledAtMs": 3.8,
+      "timerDelayMs": 500
+    },
+    {
+      "requestId": 2,
+      "atMs": 63.6,
+      "trusted": true,
+      "randomDraws": [
+        0.3069453323400485
+      ],
+      "selectedIndex": 3,
+      "selectedEntry": {
+        "name": "Salad",
+        "icon": "fas fa-leaf"
+      },
+      "timerScheduledAtMs": 63.6,
+      "timerDelayMs": 500
+    },
+    {
+      "requestId": 3,
+      "atMs": 111.3,
+      "trusted": true,
+      "randomDraws": [
+        0.49542645375827565
+      ],
+      "selectedIndex": 5,
+      "selectedEntry": {
+        "name": "Ramen",
+        "icon": "fas fa-bowl-hot"
+      },
+      "timerScheduledAtMs": 111.4,
+      "timerDelayMs": 500
+    },
+    {
+      "requestId": 4,
+      "atMs": 159.2,
+      "trusted": true,
+      "randomDraws": [
+        0.10291199099266457
+      ],
+      "selectedIndex": 1,
+      "selectedEntry": {
+        "name": "Sushi",
+        "icon": "fas fa-fish"
+      },
+      "timerScheduledAtMs": 159.2,
+      "timerDelayMs": 500
+    },
+    {
+      "requestId": 5,
+      "atMs": 207.7,
+      "trusted": true,
+      "randomDraws": [
+        0.046028032289221255
+      ],
+      "selectedIndex": 0,
+      "selectedEntry": {
+        "name": "Pizza",
+        "icon": "fas fa-pizza-slice"
+      },
+      "timerScheduledAtMs": 207.7,
+      "timerDelayMs": 500
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "firedAtMs": 505.4,
+      "state": {
+        "atMs": 505.9,
+        "dish": "Curry",
+        "iconClass": "fas fa-mortar-pestle",
+        "phase": "result",
+        "sameMenuEntry": true,
+        "sourceRequestId": 1,
+        "latestRequestId": 5,
+        "stale": true,
+        "opacity": 0,
+        "visible": false
+      }
+    },
+    {
+      "requestId": 2,
+      "firedAtMs": 565.7,
+      "state": {
+        "atMs": 566.1,
+        "dish": "Salad",
+        "iconClass": "fas fa-leaf",
+        "phase": "result",
+        "sameMenuEntry": true,
+        "sourceRequestId": 2,
+        "latestRequestId": 5,
+        "stale": true,
+        "opacity": 0.0500462,
+        "visible": true
+      }
+    },
+    {
+      "requestId": 3,
+      "firedAtMs": 613.4,
+      "state": {
+        "atMs": 613.6,
+        "dish": "Ramen",
+        "iconClass": "fas fa-bowl-hot",
+        "phase": "result",
+        "sameMenuEntry": true,
+        "sourceRequestId": 3,
+        "latestRequestId": 5,
+        "stale": true,
+        "opacity": 0.220815,
+        "visible": true
+      }
+    },
+    {
+      "requestId": 4,
+      "firedAtMs": 661.1,
+      "state": {
+        "atMs": 661.3,
+        "dish": "Sushi",
+        "iconClass": "fas fa-fish",
+        "phase": "result",
+        "sameMenuEntry": true,
+        "sourceRequestId": 4,
+        "latestRequestId": 5,
+        "stale": true,
+        "opacity": 0.444468,
+        "visible": true
+      }
+    },
+    {
+      "requestId": 5,
+      "firedAtMs": 708,
+      "state": {
+        "atMs": 708.1,
+        "dish": "Pizza",
+        "iconClass": "fas fa-pizza-slice",
+        "phase": "result",
+        "sameMenuEntry": true,
+        "sourceRequestId": 5,
+        "latestRequestId": 5,
+        "stale": false,
+        "opacity": 0.632293,
+        "visible": true
+      }
+    }
+  ],
+  "domStates": [
+    {
+      "cause": "before-burst",
+      "atMs": 0.1,
+      "dish": "Tacos",
+      "iconClass": "fas fa-utensil-spoon",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": null,
+      "latestRequestId": null,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 4.1,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 1,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 63.7,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 2,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 111.5,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 3,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 159.4,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 4,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 207.9,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 5,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 505.9,
+      "dish": "Curry",
+      "iconClass": "fas fa-mortar-pestle",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 1,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0,
+      "visible": false
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 566.1,
+      "dish": "Salad",
+      "iconClass": "fas fa-leaf",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 2,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.0500462,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 615,
+      "dish": "Ramen",
+      "iconClass": "fas fa-bowl-hot",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 3,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.220815,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 661.3,
+      "dish": "Sushi",
+      "iconClass": "fas fa-fish",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 4,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.444468,
+      "visible": true
+    },
+    {
+      "cause": "mutation-batch",
+      "mutationCount": 3,
+      "atMs": 708.1,
+      "dish": "Pizza",
+      "iconClass": "fas fa-pizza-slice",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 5,
+      "latestRequestId": 5,
+      "stale": false,
+      "opacity": 0.632293,
+      "visible": true
+    }
+  ],
+  "frameStates": [
+    {
+      "frame": 0,
+      "atMs": 0.1,
+      "dish": "Tacos",
+      "iconClass": "fas fa-utensil-spoon",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": null,
+      "latestRequestId": null,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "frame": 3,
+      "atMs": 18.2,
+      "dish": "Thinking...",
+      "iconClass": "fas fa-spinner fa-spin",
+      "phase": "loading",
+      "sameMenuEntry": null,
+      "sourceRequestId": null,
+      "latestRequestId": 1,
+      "stale": false,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "frame": 33,
+      "atMs": 518.3,
+      "dish": "Curry",
+      "iconClass": "fas fa-mortar-pestle",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 1,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0,
+      "visible": false
+    },
+    {
+      "frame": 34,
+      "atMs": 535.5,
+      "dish": "Curry",
+      "iconClass": "fas fa-mortar-pestle",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 1,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.0189522,
+      "visible": true
+    },
+    {
+      "frame": 36,
+      "atMs": 568.2,
+      "dish": "Salad",
+      "iconClass": "fas fa-leaf",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 2,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.0946916,
+      "visible": true
+    },
+    {
+      "frame": 39,
+      "atMs": 617.6,
+      "dish": "Ramen",
+      "iconClass": "fas fa-bowl-hot",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 3,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.295546,
+      "visible": true
+    },
+    {
+      "frame": 42,
+      "atMs": 667.5,
+      "dish": "Sushi",
+      "iconClass": "fas fa-fish",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 4,
+      "latestRequestId": 5,
+      "stale": true,
+      "opacity": 0.513181,
+      "visible": true
+    },
+    {
+      "frame": 45,
+      "atMs": 717.5,
+      "dish": "Pizza",
+      "iconClass": "fas fa-pizza-slice",
+      "phase": "result",
+      "sameMenuEntry": true,
+      "sourceRequestId": 5,
+      "latestRequestId": 5,
+      "stale": false,
+      "opacity": 0.682729,
+      "visible": true
+    }
+  ],
+  "framesSampled": 81,
+  "finalState": {
+    "atMs": 1324.9,
+    "dish": "Pizza",
+    "iconClass": "fas fa-pizza-slice",
+    "phase": "result",
+    "sameMenuEntry": true,
+    "sourceRequestId": 5,
+    "latestRequestId": 5,
+    "stale": false,
+    "opacity": 1,
+    "visible": true
+  },
+  "errors": []
+}
