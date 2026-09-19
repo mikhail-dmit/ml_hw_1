@@ -1,38 +1,49 @@
-# Clean-room attempt 1 — specification dependency failure
+# Clean-room attempt 1
 
-## Source and status
+Source: Separate OpenCode session with no prior context.
+Date recorded: 2026-09-19.
 
-**Result: failed to produce `app/index.html`.** This record documents the user's report of a fresh session given the earlier `prompt-v2.md` without the prior conversation or readable supporting audit files. The prompt version under test was introduced in commit `e6e91be` (`docs: define evidence-backed prompt for complete visual coverage`).
+Exact instruction:
 
-The user reported that a fresh session with no prior context refused to produce `app/index.html` because the prompt depended on files it could not read.
+```text
+Read prompt-v2.md in this repository and treat it as the complete specification.
+Do not look at baseline/index.html, at any file under evidence/, or at git
+history — the point of this session is to test whether the specification alone is
+sufficient. Produce app/index.html exactly as the specification requires,
+including the Visual Asset Mapping Table it asks you to output before any code.
+```
 
-The user identified the missing inputs as:
+**`prompt-v2.md` is not sufficient as a standalone specification under your access restrictions.** I read it without opening `baseline/index.html`, any file under `evidence/`, or git history. I have not written implementation code.
 
-- The baseline Font Awesome class for each dish.
-- The recorded human decisions for admissibility rule (c).
-- The approved final assignment that the prompt instructed the implementer to reproduce from an audit report.
+### Visual Asset Mapping Table — blocked
 
-This is a user-reported outcome, not a reconstructed model transcript. No raw clean-room transcript was supplied in this checkout. Independently, inspection of the local `app/` directory found only `.gitkeep`, with no `app/index.html`; that confirms the missing local artifact but does not by itself establish why the other session declined.
 
-## What failed
+The specification requires a fully resolved, evidence-backed mapping before any code, but some mandatory inputs exist only in the files you prohibited:
 
-The prompt depended on `baseline/index.html`, `evidence/06-review-decisions.json`, `evidence/06-asset-map.md`, and repository helper scripts for inputs it had not included. Its refusal-on-missing-input instruction did not cure that omission: the specification itself was incomplete for a clean-room implementer.
 
-This is a **prompt defect**, not a failed visual/runtime measurement and not a limitation of the clean-room test. There is no fixed page to measure, so no after-fix asset coverage, blank count, or rapid-click result count is claimed here. A later inspection of the existing test scripts does not explain or excuse this generation failure.
+| Required information | Specification reference | Blocker |
+|---|---|---|
+| Baseline class for every dish | B, D; lines 54, 78–79 | The prompt names all 12 dishes but does not provide their complete baseline class mapping. |
+| Explicit human decisions and their justifications for every eligible icon | C; lines 66–70 | The prompt includes selected decisions, but requires the full decisions from `evidence/06-review-decisions.json`. |
+| Exact approved final assignment | D; lines 82–84 | The authoritative assignment is referenced in `evidence/06-asset-map.md`, rather than reproduced in the prompt. |
+| Provenance and package/CDN checks | A; line 44 | The required records are under `evidence/`. |
 
-## Response
 
-The corrected Part 3 now carries:
+I also inspected the permitted `scripts/build_asset_map.py` to determine whether it could resolve these dependencies. It contains explicit emoji fallbacks, but **both execution modes read `baseline/index.html`**, and the full mode additionally reads the prohibited review decisions. I did not run it.
 
-- The exact twelve upstream dish names and baseline class strings, in source order, as the input to repair.
-- The unchanged three-part admissibility rule.
-- All five explicit human (c) decisions with their one-line justifications and the recorded Sushi objection.
-- The prescribed emoji fallbacks.
-- Instructions for independently obtaining the pinned official Font Awesome package and inspecting its vendored metadata.
-- A requirement to derive the mechanical (a)/(b) outcomes and the final mapping before writing application code.
 
-The finished asset-map table is **not** supplied as an answer to copy. Human semantic outcomes are inputs because rule (c) is non-automatable; mechanical eligibility remains the implementer's responsibility. The revised Part 3 requires neither the prior evidence files nor the original application file to complete the work.
+The vendored metadata can establish icon existence, style, categories, and labels. It cannot establish the omitted baseline associations or recorded human approvals.
 
-## Verification boundary
 
-The repair addresses the reported missing-input dependency. Static checks can establish that the inputs are present and the rule is unchanged; they do not establish successful generation or correct runtime behavior. A second clean-room run and fixed-app browser measurements remain outstanding.
+### Implementation and verification status
+
+
+- **`app/index.html`:** not created or modified.
+- **Mapping:** unresolved; presenting a completed table would require inventing or assuming mandatory inputs.
+- **Rendering and rapid-click tests:** not run; no passing results claimed.
+
+
+This follows section G, which explicitly prohibits guessing unavailable review decisions or presenting an incomplete implementation as complete.
+
+
+To make this specification independently executable, inline the complete baseline class mapping, the approved final assignments, and every required human decision with its justification. Also replace the mandatory checks against prohibited files with self-contained requirements. With those additions, the mapping can be shown before code and the implementation verified within your boundary.
