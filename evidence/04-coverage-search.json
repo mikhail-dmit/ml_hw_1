@@ -1,0 +1,635 @@
+{
+  "libraries": {
+    "Font Awesome 6.4.0": {
+      "canonicalIconCount": 1856,
+      "nameCountIncludingAliases": 2452,
+      "svgFileCountIncludingStyles": 2020
+    },
+    "Lucide Static 1.47.0": {
+      "canonicalIconCount": 1848,
+      "nameCountIncludingAliases": 2112,
+      "svgFileCountIncludingAliases": 2112
+    }
+  },
+  "totalsDishNamed": {
+    "Font Awesome 6.4.0": 2,
+    "Lucide Static 1.47.0": 5
+  },
+  "totalsAnyWholeTokenHit": {
+    "Font Awesome 6.4.0": 3,
+    "Lucide Static 1.47.0": 7
+  },
+  "noneNamedInEither": [
+    "Sushi",
+    "Tacos",
+    "Ramen",
+    "Pasta",
+    "Curry",
+    "Steak",
+    "BBQ"
+  ],
+  "noWholeTokenHitInEither": [
+    "Sushi",
+    "Tacos",
+    "Ramen",
+    "Pasta",
+    "Curry"
+  ],
+  "sha256": {
+    "baseline/index.html": "45de4f0b3b77768b5c7c095b1e4f0f1de2095935c5f0711e60831b834181fdbb",
+    "fontawesome/package/metadata/icon-families.json": "660ed1c51e0c49e570cb6fd2f1da3478527e85846d707b61ca4745578c2b44d0",
+    "fontawesome/package/css/all.css": "0822e64055e9b5e5fca4c230a1140b23dff7986fdc111a366251e73b97a1c5b6",
+    "lucide/package/tags.json": "2c5b54d36c25c1fec2a51d724ff7e775e8d279d719160193509085f5c9057d2f",
+    "lucide/package/icon-nodes.json": "da6e80345f5af5143c81f78ca55c390908188f31f4451488a69969d69a20d95f"
+  },
+  "rows": [
+    {
+      "dish": "Pizza",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "pizza"
+      ],
+      "namedTokens": [
+        "pizza",
+        "pizzas"
+      ],
+      "nameSubstringHits": [
+        "pizza-slice"
+      ],
+      "metadataSubstringHits": [
+        {
+          "icon": "pizza-slice",
+          "field": "label",
+          "value": "Pizza Slice"
+        }
+      ],
+      "dishNamedIcons": [
+        "pizza-slice"
+      ],
+      "dishNamedLabels": {
+        "pizza-slice": "Pizza Slice"
+      },
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Pizza",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "pizza"
+      ],
+      "namedTokens": [
+        "pizza",
+        "pizzas"
+      ],
+      "nameSubstringHits": [
+        "pizza"
+      ],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [
+        "pizza"
+      ],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Sushi",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "sushi"
+      ],
+      "namedTokens": [
+        "sushi"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Sushi",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "sushi"
+      ],
+      "namedTokens": [
+        "sushi"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Burger",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "burger"
+      ],
+      "namedTokens": [
+        "burger",
+        "burgers",
+        "cheeseburger",
+        "cheeseburgers",
+        "hamburger",
+        "hamburgers"
+      ],
+      "nameSubstringHits": [
+        "burger",
+        "hamburger"
+      ],
+      "metadataSubstringHits": [
+        {
+          "icon": "bars",
+          "field": "search.terms.2",
+          "value": "hamburger"
+        },
+        {
+          "icon": "burger",
+          "field": "aliases.names.0",
+          "value": "hamburger"
+        },
+        {
+          "icon": "burger",
+          "field": "search.terms.2",
+          "value": "burger"
+        },
+        {
+          "icon": "burger",
+          "field": "search.terms.3",
+          "value": "burger king"
+        },
+        {
+          "icon": "burger",
+          "field": "search.terms.4",
+          "value": "cheeseburger"
+        },
+        {
+          "icon": "burger",
+          "field": "label",
+          "value": "Burger"
+        }
+      ],
+      "dishNamedIcons": [
+        "burger",
+        "hamburger"
+      ],
+      "dishNamedLabels": {
+        "burger": "Burger"
+      },
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Burger",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "burger"
+      ],
+      "namedTokens": [
+        "burger",
+        "burgers",
+        "cheeseburger",
+        "cheeseburgers",
+        "hamburger",
+        "hamburgers"
+      ],
+      "nameSubstringHits": [
+        "hamburger"
+      ],
+      "metadataSubstringHits": [
+        {
+          "icon": "hamburger",
+          "field": "tags.0",
+          "value": "burger"
+        },
+        {
+          "icon": "hamburger",
+          "field": "tags.1",
+          "value": "cheeseburger"
+        },
+        {
+          "icon": "menu",
+          "field": "tags.2",
+          "value": "hamburger"
+        },
+        {
+          "icon": "square-menu",
+          "field": "tags.2",
+          "value": "hamburger"
+        }
+      ],
+      "dishNamedIcons": [
+        "hamburger"
+      ],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Salad",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "salad"
+      ],
+      "namedTokens": [
+        "salad",
+        "salads"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Salad",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "salad"
+      ],
+      "namedTokens": [
+        "salad",
+        "salads"
+      ],
+      "nameSubstringHits": [
+        "salad"
+      ],
+      "metadataSubstringHits": [
+        {
+          "icon": "leafy-green",
+          "field": "tags.0",
+          "value": "salad"
+        }
+      ],
+      "dishNamedIcons": [
+        "salad"
+      ],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Tacos",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "taco"
+      ],
+      "namedTokens": [
+        "taco",
+        "tacos"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Tacos",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "taco"
+      ],
+      "namedTokens": [
+        "taco",
+        "tacos"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Ramen",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "ramen"
+      ],
+      "namedTokens": [
+        "ramen"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Ramen",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "ramen"
+      ],
+      "namedTokens": [
+        "ramen"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Sandwich",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "sandwich"
+      ],
+      "namedTokens": [
+        "sandwich",
+        "sandwiches"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [
+        {
+          "icon": "bread-slice",
+          "field": "search.terms.7",
+          "value": "sandwich"
+        },
+        {
+          "icon": "burger",
+          "field": "search.terms.9",
+          "value": "sandwich"
+        },
+        {
+          "icon": "cheese",
+          "field": "search.terms.5",
+          "value": "sandwich"
+        },
+        {
+          "icon": "hotdog",
+          "field": "search.terms.8",
+          "value": "sandwich"
+        }
+      ],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Sandwich",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "sandwich"
+      ],
+      "namedTokens": [
+        "sandwich",
+        "sandwiches"
+      ],
+      "nameSubstringHits": [
+        "sandwich"
+      ],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [
+        "sandwich"
+      ],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Pasta",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "pasta"
+      ],
+      "namedTokens": [
+        "pasta",
+        "pastas"
+      ],
+      "nameSubstringHits": [
+        "pastafarianism"
+      ],
+      "metadataSubstringHits": [
+        {
+          "icon": "spaghetti-monster-flying",
+          "field": "aliases.names.0",
+          "value": "pastafarianism"
+        }
+      ],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Pasta",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "pasta"
+      ],
+      "namedTokens": [
+        "pasta",
+        "pastas"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Curry",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "curry",
+        "curries"
+      ],
+      "namedTokens": [
+        "curries",
+        "curry"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Curry",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "curry",
+        "curries"
+      ],
+      "namedTokens": [
+        "curries",
+        "curry"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Steak",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "steak"
+      ],
+      "namedTokens": [
+        "steak",
+        "steaks"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Steak",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "steak"
+      ],
+      "namedTokens": [
+        "steak",
+        "steaks"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [
+        {
+          "icon": "beef",
+          "field": "tags.7",
+          "value": "steak"
+        },
+        {
+          "icon": "beef-off",
+          "field": "tags.7",
+          "value": "steak"
+        }
+      ],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "Soup",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "soup"
+      ],
+      "namedTokens": [
+        "soup",
+        "soups"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "Soup",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "soup"
+      ],
+      "namedTokens": [
+        "soup",
+        "soups"
+      ],
+      "nameSubstringHits": [
+        "soup"
+      ],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [
+        "soup"
+      ],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": true,
+      "hasWholeTokenNameOrMetadataHit": true
+    },
+    {
+      "dish": "BBQ",
+      "library": "Font Awesome 6.4.0",
+      "queries": [
+        "bbq",
+        "barbecue",
+        "barbeque"
+      ],
+      "namedTokens": [
+        "barbecue",
+        "barbecues",
+        "barbeque",
+        "barbeques",
+        "bbq"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": false
+    },
+    {
+      "dish": "BBQ",
+      "library": "Lucide Static 1.47.0",
+      "queries": [
+        "bbq",
+        "barbecue",
+        "barbeque"
+      ],
+      "namedTokens": [
+        "barbecue",
+        "barbecues",
+        "barbeque",
+        "barbeques",
+        "bbq"
+      ],
+      "nameSubstringHits": [],
+      "metadataSubstringHits": [
+        {
+          "icon": "beef",
+          "field": "tags.6",
+          "value": "bbq"
+        },
+        {
+          "icon": "beef-off",
+          "field": "tags.6",
+          "value": "bbq"
+        },
+        {
+          "icon": "hamburger",
+          "field": "tags.20",
+          "value": "barbecue"
+        },
+        {
+          "icon": "hamburger",
+          "field": "tags.21",
+          "value": "barbeque"
+        },
+        {
+          "icon": "hamburger",
+          "field": "tags.22",
+          "value": "bbq"
+        }
+      ],
+      "dishNamedIcons": [],
+      "dishNamedLabels": {},
+      "hasDishNamedGlyph": false,
+      "hasWholeTokenNameOrMetadataHit": true
+    }
+  ]
+}

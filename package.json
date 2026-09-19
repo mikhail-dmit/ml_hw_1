@@ -1,0 +1,10 @@
+{
+  "name": "week1-icon-audit",
+  "private": true,
+  "scripts": {
+    "render:icons": "node scripts/render-icon-sheet.js"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

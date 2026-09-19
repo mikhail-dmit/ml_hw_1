@@ -1,0 +1,178 @@
+{
+  "source": "baseline/index.html",
+  "sourceSha256": "45de4f0b3b77768b5c7c095b1e4f0f1de2095935c5f0711e60831b834181fdbb",
+  "stylesheetUrl": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+  "stylesheetSha256": "1edb1725a9ea8ca4dcf2f5508cee183218aa1685e47c1b23056717f754f58ebf",
+  "playwrightVersion": "1.63.0",
+  "browser": {
+    "name": "Chromium",
+    "version": "153.0.8010.12",
+    "headless": true,
+    "viewport": {
+      "width": 1200,
+      "height": 1100
+    },
+    "deviceScaleFactor": 1
+  },
+  "method": "Enumerate all menu items once in source order; measure after document.fonts.ready.",
+  "blankCriterion": "content === 'none' || width === 0",
+  "total": 12,
+  "renderedCount": 9,
+  "blankCount": 3,
+  "blankRate": {
+    "numerator": 3,
+    "denominator": 12
+  },
+  "items": [
+    {
+      "index": 1,
+      "dish": "Pizza",
+      "iconClass": "fas fa-pizza-slice",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 2,
+      "dish": "Sushi",
+      "iconClass": "fas fa-fish",
+      "content": "\"\"",
+      "width": 72,
+      "blank": false
+    },
+    {
+      "index": 3,
+      "dish": "Burger",
+      "iconClass": "fas fa-hamburger",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 4,
+      "dish": "Salad",
+      "iconClass": "fas fa-leaf",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 5,
+      "dish": "Tacos",
+      "iconClass": "fas fa-utensil-spoon",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 6,
+      "dish": "Ramen",
+      "iconClass": "fas fa-bowl-hot",
+      "content": "none",
+      "width": 0,
+      "blank": true
+    },
+    {
+      "index": 7,
+      "dish": "Sandwich",
+      "iconClass": "fas fa-bread-slice",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 8,
+      "dish": "Pasta",
+      "iconClass": "fas fa-pasta",
+      "content": "none",
+      "width": 0,
+      "blank": true
+    },
+    {
+      "index": 9,
+      "dish": "Curry",
+      "iconClass": "fas fa-mortar-pestle",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 10,
+      "dish": "Steak",
+      "iconClass": "fas fa-drumstick-bite",
+      "content": "\"\"",
+      "width": 64,
+      "blank": false
+    },
+    {
+      "index": 11,
+      "dish": "Soup",
+      "iconClass": "fas fa-bowl",
+      "content": "none",
+      "width": 0,
+      "blank": true
+    },
+    {
+      "index": 12,
+      "dish": "BBQ",
+      "iconClass": "fas fa-fire",
+      "content": "\"\"",
+      "width": 56,
+      "blank": false
+    }
+  ],
+  "stylesheetLoaded": true,
+  "fonts": [
+    {
+      "family": "Font Awesome 6 Brands",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 6 Free",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 6 Free",
+      "weight": "900",
+      "status": "loaded"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "900",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "errors": []
+}
