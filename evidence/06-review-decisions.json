@@ -1,0 +1,39 @@
+{
+  "reviewer": "User, via explicit responses to the five metadata-derived REVIEW rows",
+  "criterionInterpretation": "Judge conventional composition and whether a user maps the glyph to this dish rather than another item on this menu, not every hypothetical ingredient variant. A category-level match may be accepted explicitly; overlap with another dish's defining ingredients remains grounds for rejection.",
+  "reviews": {
+    "Pizza": {
+      "baselineClass": "fas fa-pizza-slice",
+      "officialLabel": "Pizza Slice",
+      "verdict": "KEEP-FA",
+      "justification": "A pizza slice directly depicts Pizza and distinguishes it from the other eleven menu items."
+    },
+    "Sushi": {
+      "baselineClass": "fas fa-fish",
+      "officialLabel": "Fish",
+      "verdict": "KEEP-FA",
+      "justification": "Sushi is the only conventionally seafood dish among these twelve defaults, so Fish is accepted as a distinguishing category-level match rather than an exact depiction.",
+      "reasoning": "The objection that fish could equally be an ingredient in Tacos, Sandwich, Curry, or Soup tests hypothetical possibility rather than conventional composition. The rule asks whether a user seeing this glyph beside this menu maps it to this dish rather than another. Tacos, Curry, and Soup have seafood variants but not seafood defaults. Sandwich differs because Burger is bread-based by definition, not merely hypothetically.",
+      "userProvidedReference": "The user states that the reference mapping in the course materials pairs Sushi with a fish glyph; those materials were not independently inspected in this audit.",
+      "recordedObjection": "Sushi is strictly defined by vinegared rice rather than by fish, and the glyph depicts a whole raw fish rather than a prepared dish. This decision accepts a category-level match, not an exact one."
+    },
+    "Burger": {
+      "baselineClass": "fas fa-hamburger",
+      "officialLabel": "Burger",
+      "verdict": "KEEP-FA",
+      "justification": "The label directly names Burger; retain Font Awesome using the canonical v6 class fas fa-burger instead of the hamburger alias."
+    },
+    "Sandwich": {
+      "baselineClass": "fas fa-bread-slice",
+      "officialLabel": "Bread Slice",
+      "verdict": "EMOJI",
+      "justification": "Bread is a defining ingredient of Burger as well as Sandwich, so Bread Slice does not distinguish Sandwich within this menu."
+    },
+    "Steak": {
+      "baselineClass": "fas fa-drumstick-bite",
+      "officialLabel": "Drumstick Bite",
+      "verdict": "EMOJI",
+      "justification": "A drumstick depicts a different cut or type of meat and could suggest BBQ; it does not identify Steak."
+    }
+  }
+}
